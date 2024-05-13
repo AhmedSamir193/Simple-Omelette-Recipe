@@ -61,43 +61,43 @@ body {
     font-size: 17px;
 }
 
-.card .main h4 {
+.card section h4 {
     color: hsl(332, 51%, 32%);
     font-weight: bold;
 }
 
-.card .main {
+.card section {
     margin-left: 50px;
 }
 
-.card .main ul li {
+.card section ul li {
     color:  hsl(30, 10%, 34%);
     margin-top: 8px;
     padding-left: 15px; 
     color: rgb(115 109 109);
 }
 
-.card .main ul li::marker {
+.card .section ul li::marker {
     color: hwb(315 15% 59%);
     font-size: 14px;
     font-weight: bold;
 }
 
-.card .main ul li span {
+.card section ul li span {
     font-weight: bold;
 }
 
-.card .main-1 {
+.card article {
     margin-top: 50px;
     border-bottom: 1px solid hsla(15, 4%, 18%, 0.13);
 }
 
-.card .main-1 h3 {
+.card article h3 {
     color: hsl(12,38%,35%);
     font-family: "Young Serif";
 }
 
-.card .main-1 ul li {
+.card article ul li {
     color:  hsl(30, 10%, 34%);
     margin-top: 8px;
     padding-left: 15px;
@@ -105,7 +105,7 @@ body {
     color: rgb(115 109 109);
 }
 
-.card .main-1 ul li::marker {
+.card article ul li::marker {
     color: hsl(12,38%,35%);
     font-size: 14px;
     font-weight: bold;
@@ -166,7 +166,7 @@ body {
 
 
 @media (max-width:767px) {
-    .card .main-1, .card .body, footer {
+    .card article, .card .body, footer {
         padding-left: 25px;
     }
 }
